@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,6 +22,13 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: 1R15NS139201-01A1
+  identifier: https://ror.org/01s5ya894
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.ninds.nih.gov/
 dateCreated: '2026-04-30T20:46:52.927966+00:00'
 description: "This project continues thirty-two years of research with undergraduate
   students at Grinnell College, who participate in all aspects of the research. My
@@ -59,6 +67,7 @@ description: "This project continues thirty-two years of research with undergrad
   directly support at least 12 undergraduate students in consequential research experiences.
   Most of these students, if not all, will matriculate in a Ph.D. program in a biomedical
   science or medical school.\n"
+ethicsApproval: []
 id: DANDI:001829/draft
 identifier: DANDI:001829
 license:
@@ -67,8 +76,12 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001829/versions/draft/assets/
 name: Investigating the role of pH in presynaptic homeostatic potentiation at the
   vertebrate neuromuscular junction
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Presynaptic Homeostatic Potentiation
 url: https://dandiarchive.org/dandiset/001829/draft
 version: draft
+wasGeneratedBy: []
