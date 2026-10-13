@@ -8,9 +8,35 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 787350859
+  numberOfFiles: 6
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampSeries
+  - OpticalChannel
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: Lindgren, Clark (2026) Investigating the role of pH in presynaptic homeostatic
   potentiation at the vertebrate neuromuscular junction (Version draft) [Data set].
   DANDI Archive. https://dandiarchive.org/dandiset/001829/draft
