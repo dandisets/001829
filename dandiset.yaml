@@ -24,8 +24,10 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 403780211
-  numberOfFiles: 5
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 792069443
+  numberOfFiles: 7
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -37,6 +39,7 @@ assetsSummary:
   - OpticalChannel
   - ImagingPlane
   - TwoPhotonSeries
+  - OnePhotonSeries
 citation: Lindgren, Clark (2026) Investigating the role of pH in presynaptic homeostatic
   potentiation at the vertebrate neuromuscular junction (Version draft) [Data set].
   DANDI Archive. https://dandiarchive.org/dandiset/001829/draft
